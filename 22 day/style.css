@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.number{
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin: 2px;
+}
