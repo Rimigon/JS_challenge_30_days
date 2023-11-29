@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30DaysOfJs</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Press any key</h1>
+    <p></p>
+    <script>
+      const p = document.querySelector('p')
+      const h1 = document.querySelector('h1')
+      document.body.addEventListener('keydown', e => {
+        p.textContent = e.keyCode
+        h1.textContent = "You pressed '" + e.key + "'"
+      })
+    </script>
+  </body>
+</html>
