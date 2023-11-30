@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/galaxy.gif);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    background: rgba(192, 204, 195, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(192, 204, 195, 0.3);
+}
+
+img{
+    background: rgba(192, 204, 195, 0);
+}
+
+input, select{
+    background: white;
+    color: black;
+    border: none;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+input{
+    width: 300px;
+    font-size: 30px;
+}
+
+select{
+    width: 150px;
+    font-size: 20px;
+}
+
+button{
+    background: grey;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.weightContainer{
+    background: rgba(192, 204, 195, 0.4);
+    font-size: 45px;
+    margin-left: 20px;
+    border: 1px solid rgba(192, 204, 195, 0.3);
+    box-shadow: 0 0 50px rgba(192, 204, 195, 0.3);
+    text-align: center;
+}
+
+.weightTitle, .weight{
+    background: rgba(192, 204, 195, 0);
+    color: black;
+    padding: 10px;
+}
