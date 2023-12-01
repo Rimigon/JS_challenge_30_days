@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: orange;
+}
+
+h1, p{
+    text-align: center;
+}
+
+.form{
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: block;
+}
