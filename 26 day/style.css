@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.form{
+    background-image: url(./globe-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blur {
+    background: rgba(20, 7, 6, 0.6);
+    backdrop-filter: blur(6px);
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+  }
+
+img{
+    height: 30px;
+}
+.searchButton{
+    background: none;
+}
+button{
+    font-size: 30px;
+    height: 50px;
+    background-color: palevioletred;
+    border: none;
+    margin: 7px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.buttons{
+    display: flex;
+}
+
+
+.header{
+    font-size:  40px;
+    text-align: center;
+    z-index: 1;
+}
+
+input{
+    border-radius: 30px;
+    border: none;
+    width: 400px;
+    z-index: 1;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.countries{
+    color: black;
+    width: 150px;
+    height: 150px;
+    background-image: url(./map_image.jpg);
+    background-size: cover;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px grey;
+    margin: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
