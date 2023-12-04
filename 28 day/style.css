@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    font-size: 25px;
+    margin: 5px;
+    border: 1px solid pink;
+    padding: 5px;
+}
+
+.form > button{
+    background: pink;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+img{
+    height: 50px;
+}
+
+.card{
+    height: 60px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    align-items: center;
+}
+
+.control{
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.control > button{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 50px;
+    border: none;
+}
+
+.info{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i{
+    color: red
+}
