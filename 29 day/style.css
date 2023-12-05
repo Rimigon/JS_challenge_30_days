@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background: salmon;
+    height: 95vh;
+    margin: 20px;
+    font-size: 120px;
+    padding: 100px;
+    display: inline-block;
+}
+
+.container > div{
+    display: inline;
+}
+
+@keyframes letter{
+    0% {opacity: 0; transform: translateY(-15px)}
+    100% {opacity: 1; transform: translateY(0px)}
+  }
+  
+  .elem{
+    animation: letter 5s; 
+  }
