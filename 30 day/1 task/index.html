@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30DaysOfJs</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>World Countries Data</h1>
+      <p>Currently, we have 250 countries</p>
+    </header>
+
+    <div class="controls">
+      <input type="search" name="search" id="search">
+      <div class="buttons">
+        <button onclick="sortName()" class="name-sort">Name</button>
+        <button onclick="sortCapital()" class="capital-sort">Capital</button>
+        <button onclick="sortPopulation()" class="population-sort">Population</button>
+        <a href="#stat"><i class="fa-solid fa-chart-simple"></i></a>
+      </div>
+    </div>
+
+    <div class="countries-container">
+
+    </div>
+
+    <div class="form">
+      <button onclick="calculPopulation()">POPULATION</button>
+      <button onclick="calculLanguages()">LANGUAGES</button>
+    </div>
+
+    <div class="container" id="stat">
+
+    </div>
+    <script src="https://kit.fontawesome.com/b5758552f5.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
